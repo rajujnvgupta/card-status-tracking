@@ -1,0 +1,21 @@
+#Setup
+
+#Mongo installation for linux ubuntu 20.04
+https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
+
+
+#virtual environment setup for develpment
+https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/
+
+
+#installed following in acativate virtual environment
+pip install pymongo fastapi uvicorn
+
+#fastapi is python web framwork for api develpment
+#pymongo is python client for mongodb connection
+#uvicorn act as server for development
+
+
+
+##start server for develpment
+uvicorn index:app --reload
